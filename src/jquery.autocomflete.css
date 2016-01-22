@@ -1,0 +1,32 @@
+.autocomflete {
+    border: solid #b6c9e1 2px;
+    border-radius: 2px;
+    padding: 3px;
+    position: relative;
+}
+
+.autocomflete .items{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.autocomflete .items li{
+    background-color: #EBE2FF;
+}
+.autocomflete .items > *{
+    list-style: none;
+    display: inline-block;
+    padding: 2px;
+    margin: 0 2px;
+    border-radius: 2px;
+    border: none;
+}
+
+.autocomflete .items a{
+    padding: 0 5px;
+}
+
+.suggestions{
+    position: absolute;
+    top: 100%;
+}
